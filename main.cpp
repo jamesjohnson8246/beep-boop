@@ -182,7 +182,18 @@ void fullForwardSwitch() {
 }
 
 void driveToSink() {
-
+    //Drive forwards 8 inches
+    moveForward(25, 323);
+    //Turn right 45 degrees
+    turnRight(25, 110);
+    //Move forwards 28 inches
+    moveForward(25, 1129);
+    //Turn left 90 degrees
+    turnLeft(25, 220);
+    //Move forwards 12 inches
+    moveForward(25, 484);
+    //Turn left 90 degrees
+    turnLeft(25, 220);
 }
 
 void trayInSink() {
@@ -190,6 +201,7 @@ void trayInSink() {
 }
 
 void driveToIceCream() {
+
 
 }
 
@@ -234,7 +246,7 @@ void driveToJukebox() {
    moveForward(25, 484);
    //Turn left 90 degrees
    turnLeft(25, 220);
-   moveBack(25, 130);
+   moveBack(25, 105);
 }
 
 void pressJukeboxButton() {
@@ -250,7 +262,7 @@ void pressJukeboxButton() {
        moveForward(25, 40);
        turnLeft(25, 121);
    }
-   moveForward(25, 150);
+   moveForward(25, 242);
    //Drive backwards 6 inches
    moveBack(25, 242);
 }
